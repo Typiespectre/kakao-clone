@@ -1,5 +1,7 @@
 .chats-body {
   padding: 0;
+  background-image: url(../images/chatBg.png);
+  min-height: 100vh;
 }
 
 .chats-body .status-bar {
@@ -9,10 +11,8 @@
 .chats-body .header {
   padding: 10px 20px;
   border-bottom: 1px solid #f7f7f7;
-}
-.chat-screen {
-  background-image: url(../images/chatBg.png);
-  min-height: 100vh;
+  box-shadow: 0px 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0px -6px 16px -6px rgba(0, 0, 0, 0.024);
 }
 
 .chat__write {
