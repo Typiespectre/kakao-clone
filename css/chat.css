@@ -36,6 +36,10 @@
   font-size: 22px;
 }
 
+.chat__write .chat__write-icon {
+  margin-left: 10px;
+}
+
 .chat__write-column:nth-child(2) {
   width: 80%;
 }
@@ -118,8 +122,4 @@
 .sent-message .message__bubble {
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to right, #ffb75e, #ed8f03);
-}
-
-.chat__write .chat__write-icon {
-  margin-left: 10px;
 }
